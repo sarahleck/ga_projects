@@ -19,7 +19,7 @@ A1.
 Variable: Admit Description: 0 = not admitted 1 = admitted Type of variable: categorical 
 Variable: GRE Description: GRE score Type of variable: continuous
 Variable: GPA Description: GPA score Type of variable: continuous
-Variable: Rank Description: 1 = high, 4 = low Type of variable: descrete
+Variable: Rank Description: 1 = high, 4 = low Type of variable: discrete
 
 
 Q2. What is the outcome?
@@ -48,7 +48,7 @@ Q3a. How might outliers impact your analysis?
 A3a. They will affect the mean of the distribution and skew the distribution
 
 Q3b. How will you test for outliers?
-A3b. Test for skewed distributiom
+A3b. Test for skewed distribution
 
 Q4a. What is colinearity?
 A4a. When there are multiple intercorrelatons or interassociations among independent variables
