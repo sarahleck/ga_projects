@@ -1,0 +1,68 @@
+Project 1
+In this first project you will create a framework to scope out data science projects. This framework will provide you with a guide to develop a well-articulated problem statement and analysis plan that will be robust and reproducible.Read and evaluate the following problem statement:Determine  which  free-tier  customers  will  covert  to  paying  customers,  using  demographic  data collected at signup (age, gender, location, and profession) and customer useage data (days since last log in, and activity score 1 = active user, 0= inactive user) based on Hooli data from Jan-Apr 2015
+
+Q1. What is the outcome?
+A1. Free tier customers converting to paying customers
+
+Q2. What are the predictors/covariates?
+A2. Demographiv data and customer usage data
+
+Q3. What timeframe is this data relevant for?
+A3.Jan-Apr 2015
+
+Q4. What is the hypothesis?
+A4. Are there demographuc or usage factors that influence customer decisions to convert from free tier to paying customers?
+
+Dataset
+Q1. Data
+A1. 
+Variable: Admit Description: 0 = not admitted 1 = admitted Type of variable: categorical 
+Variable: GRE Description: GRE score Type of variable: continuous
+Variable: GPA Description: GPA score Type of variable: continuous
+Variable: Rank Description: 1 = high, 4 = low Type of variable: descrete
+
+
+Q2. What is the outcome?
+A2. Whether or not a student gets admitted 
+
+Q3.What are the predictors/covariates?
+A3. GRE, GPA, school rank
+
+Q4. What timeframe is this data relevant for?
+A4. Not timeseries data
+
+Q5. What is the hypothesis?
+A5. That students with higher GRE, GPA and school rank are more likely to gain admission to graduate school
+
+Exploratory analysis plan
+Q1. What are the goals of the exploratory analysis?
+A1. To gain insight into a dataset and the underlying structure
+
+Q2a. What are the assumptions of the distribution of data?
+A2a. I would assume that the variables would be normally distributed, the key assumptions are the centre and spread of the distribution.
+
+Q2b. How will you determine the distribution of your data?
+A2b. Using descriptive statistics to show the centre and spread about the centre. 
+
+Q3a. How might outliers impact your analysis?
+A3a. They will affect the mean of the distribution and skew the distribution
+
+Q3b. How will you test for outliers?
+A3b. Test for skewed distributiom
+
+Q4a. What is colinearity?
+A4a. When there are multiple intercorrelatons or interassociations among independent variables
+
+Q4b. How will you test for colinearity?
+A4b. By calculating the correlation and covariance matrices for the independent variables
+
+
+Q5. What is your exploratory analysis plan?
+A5. Use descriptive statistics to assess:
+	- distribution of the data including 
+		- centre 
+		- spread
+		- skewness
+	- correlation and covariance between the independent variables
+
+
